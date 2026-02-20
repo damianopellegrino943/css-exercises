@@ -1,1 +1,29 @@
 /* Add CSS Styling */
+
+/*probando clase descender de un elemento
+
+/*
+div .text{
+    background-color: yellow;
+    color:red;
+    font-size: 20px;
+    text-align: center;
+}
+*/
+
+/*probando clase descender de otra clase
+/*
+.container .text{
+    background-color: yellow;
+    color:red;
+    font-size: 20px;
+    text-align: center;
+}
+*/
+
+div p{
+    background-color: yellow;
+    color:red;
+    font-size: 20px;
+    text-align: center;
+}
