@@ -29,12 +29,27 @@ body {
   font-size: 20px;
 }
 
+/*agrego esta linea porque id tiene prioridad antes que las clases*/
+#confirm-button{
+  background: green;
+  color: white;
+  font-weight: bold;
+}
+
+
+
 .child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
 }
 
+/* se agrega etsa linea porque se suman*/
+.text .child{
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 14px;
+}
 div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
