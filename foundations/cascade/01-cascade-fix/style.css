@@ -45,7 +45,7 @@ body {
 }
 
 /* se agrega etsa linea porque se suman*/
-.text .child{
+.text.child{
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
